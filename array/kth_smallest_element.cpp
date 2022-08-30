@@ -5,6 +5,7 @@ int main() {
     int arr[] = {7, 10, 4, 3, 20, 15};
     int count = sizeof(arr)/sizeof(arr[0]);
     int k = 3;
+    // sort(arr, arr + 6);  instead of writing sort algorithm use sort
     for (int i=0; i<count-1; i++){
         int temp = arr[i], replace = arr[i], replace_index = i;
         for (int j=i+1; j<count; j++){
