@@ -24,5 +24,6 @@ public class ReverseAnArray {
       }
       System.out.println(" ");
     }
+    readUser.close();
   }
 }
